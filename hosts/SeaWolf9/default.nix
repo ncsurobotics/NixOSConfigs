@@ -1,6 +1,7 @@
 _: {
   imports = [
     ./hardware-configuration.nix
+    ./disk-config.nix
   ];
 
   networking.hostName = "SeaWolf9";
