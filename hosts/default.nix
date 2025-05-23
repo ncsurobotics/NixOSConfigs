@@ -14,6 +14,7 @@ let
         modules = [
           ./${host}
           ../nixosModules
+          inputs.disko.nixosModules.disko
         ];
       }
     );

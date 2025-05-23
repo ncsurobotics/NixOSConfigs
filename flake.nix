@@ -7,6 +7,11 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
 
     jetpack-nixos.url = "github:anduril/jetpack-nixos";
+
+    disko = {
+      url = "github:nix-community/disko";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
   outputs =
     inputs:
