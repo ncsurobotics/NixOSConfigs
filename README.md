@@ -1,8 +1,8 @@
 # NixOS Configurations
 ## Installation on an Nvidia Jetson Orin Nano
-1. Flash UEFI firmware with Jetpack 6 support. See (jetpack-nixos)[https://github.com/anduril/jetpack-nixos/?tab=readme-ov-file#flashing-uefi-firmware]
+1. Flash UEFI firmware with Jetpack 6 support. See [jetpack-nixos](https://github.com/anduril/jetpack-nixos/?tab=readme-ov-file#flashing-uefi-firmware)
 2. Create installation media
-  1. Build the customized installer iso. See (jetpack-nixos)[https://github.com/anduril/jetpack-nixos/?tab=readme-ov-file#installation-iso]
+  1. Build the customized installer iso. See [jetpack-nixos](https://github.com/anduril/jetpack-nixos/?tab=readme-ov-file#installation-iso)
   2. Write the iso to a usb drive
 3. Boot the installation media
 4. Connect to the network
