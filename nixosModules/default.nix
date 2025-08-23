@@ -9,5 +9,6 @@ _: {
     ./rtsp.nix
     ./auv-control-board.nix
     ./docker.nix
+    ./fish.nix
   ];
 }

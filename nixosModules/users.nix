@@ -1,4 +1,4 @@
-_: {
+{pkgs, ...}: {
   users = {
     mutableUsers = false;
     users.aqua = {
@@ -10,6 +10,7 @@ _: {
         "dialout"
         "docker"
       ];
+      defaultUserShell = pkgs.fish;
     };
   };
 }
