@@ -13,5 +13,5 @@
   set_network 0 key_mgmt NONE 
   ```
 5. Clone this repo
-6. Partition the disk (Each hosts `disk-config.nix` is located in hosts/<host name>/): `sudo nix --experimental-features "nix-command flakes" run github:nix-community/disko/latest -- --mode destroy,format,mount <path to disk-config.nix>`
+6. Partition the disk (Each hosts `disk-config.nix` is located in `hosts/<host name>/`): `sudo nix --experimental-features "nix-command flakes" run github:nix-community/disko/latest -- --mode destroy,format,mount <path to disk-config.nix>`
 7. Install nixos: `nixos-install --root /mnt --flake <path to this repo>#<host name>`
