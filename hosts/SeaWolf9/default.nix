@@ -5,6 +5,7 @@
   ];
 
   networking.hostName = "SeaWolf9";
+  systemd.network.networks."10-wired-tether".matchConfig.Name = "enP8p1s0";
   boot.loader = {
     systemd-boot.enable = true;
     efi.canTouchEfiVariables = true;

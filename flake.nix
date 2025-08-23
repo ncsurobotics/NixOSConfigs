@@ -2,11 +2,14 @@
   description = "NixOS configurations for SeaWolves";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
 
     flake-parts.url = "github:hercules-ci/flake-parts";
 
-    jetpack-nixos.url = "github:anduril/jetpack-nixos";
+    jetpack-nixos = {
+      url = "github:anduril/jetpack-nixos/master";
+      inputs.nixpkgs.follows = "nixpkgs";      
+    };
 
     disko = {
       url = "github:nix-community/disko";

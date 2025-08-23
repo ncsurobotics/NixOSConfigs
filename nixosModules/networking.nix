@@ -24,7 +24,7 @@ _: {
     networks."10-wired-tether" = {
       matchConfig.Type = "ether";
       networkConfig = {
-        Address = "192.168.2.5";
+        Address = "192.168.2.5/24";
         DHCPServer = "yes";
       };
       dhcpServerConfig.PersistLeases = "no";

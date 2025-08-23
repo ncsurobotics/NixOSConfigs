@@ -8,5 +8,6 @@ _: {
     ./tailscale.nix
     ./rtsp.nix
     ./auv-control-board.nix
+    ./docker.nix
   ];
 }
