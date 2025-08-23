@@ -1,5 +1,6 @@
 {pkgs, ...}: {
   users = {
+    defaultUserShell = pkgs.fish;
     mutableUsers = false;
     users.aqua = {
       hashedPassword = "$y$j9T$EoNlm86e48aNeXfhW0P3d0$qDRu9Q.vJ.STAmIFYY2SOLCG470zXUkWmro981qZlrD";
@@ -10,7 +11,6 @@
         "dialout"
         "docker"
       ];
-      defaultUserShell = pkgs.fish;
     };
   };
 }
