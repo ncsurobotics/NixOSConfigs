@@ -38,6 +38,26 @@
         "type": "github"
       }
     },
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1755914636,
+        "narHash": "sha256-VJ+Gm6YsHlPfUCpmRQxvdiZW7H3YPSrdVOewQHAhZN8=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "8b55a6ac58b678199e5bba701aaff69e2b3281c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
     "jetpack-nixos": {
       "inputs": {
         "nixpkgs": [
@@ -56,6 +76,26 @@
         "owner": "anduril",
         "ref": "master",
         "repo": "jetpack-nixos",
+        "type": "github"
+      }
+    },
+    "nix-index-database": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1755404379,
+        "narHash": "sha256-Q6ZxZDBmD/B988Jjbx7/NchxOKIpOKBBrx9Yb0zMzpQ=",
+        "owner": "nix-community",
+        "repo": "nix-index-database",
+        "rev": "ebbc1c05f786ae39bb5e04e57bf2c10c44a649e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nix-index-database",
         "type": "github"
       }
     },
@@ -94,7 +134,9 @@
       "inputs": {
         "disko": "disko",
         "flake-parts": "flake-parts",
+        "home-manager": "home-manager",
         "jetpack-nixos": "jetpack-nixos",
+        "nix-index-database": "nix-index-database",
         "nixpkgs": "nixpkgs"
       }
     }
