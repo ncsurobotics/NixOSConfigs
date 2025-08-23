@@ -10,5 +10,6 @@ _: {
     ./auv-control-board.nix
     ./docker.nix
     ./fish.nix
+    ./home-manager.nix
   ];
 }
