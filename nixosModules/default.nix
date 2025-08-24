@@ -11,5 +11,6 @@ _: {
     ./docker.nix
     ./fish.nix
     ./home-manager.nix
+    ./virtualisation
   ];
 }
