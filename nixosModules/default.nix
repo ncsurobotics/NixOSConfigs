@@ -8,7 +8,6 @@ _: {
     ./tailscale.nix
     ./rtsp.nix
     ./auv-control-board.nix
-    ./docker.nix
     ./fish.nix
     ./home-manager.nix
     ./virtualisation
