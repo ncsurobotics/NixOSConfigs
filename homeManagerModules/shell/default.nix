@@ -5,5 +5,6 @@ _: {
     ./starship.nix
     ./direnv.nix
     ./multiplexers.nix
+    ./nix-index.nix
   ];
 }
