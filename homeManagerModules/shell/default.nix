@@ -4,5 +4,6 @@ _: {
     ./zoxide.nix
     ./starship.nix
     ./direnv.nix
+    ./multiplexers.nix
   ];
 }
