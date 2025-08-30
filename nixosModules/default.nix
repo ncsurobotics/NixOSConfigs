@@ -12,5 +12,6 @@ _: {
     ./home-manager.nix
     ./virtualisation
     ./zed.nix
+    ./argus.nix
   ];
 }
