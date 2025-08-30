@@ -32,13 +32,11 @@
       imports = [
         ./hosts
       ];
-      systems = [
-        "x86_64-linux"
-        "aarch64-linux"
-      ];
+      systems = [ "aarch64-linux" ];
       perSystem =
         { pkgs, ... }:
         {
+          packages.default = pkgs.callPackage ./pkgs/zed-link-mono-driver.nix {};
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
               nil
@@ -49,5 +47,6 @@
           };
           formatter = pkgs.nixfmt-tree;
         };
+      
     };
 }

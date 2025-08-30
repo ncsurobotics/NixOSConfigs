@@ -11,5 +11,6 @@ _: {
     ./fish.nix
     ./home-manager.nix
     ./virtualisation
+    ./zed.nix
   ];
 }
