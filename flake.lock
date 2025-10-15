@@ -66,18 +66,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1757016149,
-        "narHash": "sha256-aW/Jv82fS2I0LvhCdYoc3LAQeHJGNZ1oenLi8RLr6G8=",
-        "owner": "anduril",
-        "repo": "jetpack-nixos",
-        "rev": "09d39440befe8db1fb209e489b3a7ecefab73117",
-        "type": "github"
+        "lastModified": 1760466408,
+        "narHash": "sha256-HxXeq+PD22izW30W3QplTkYu4GIGXulTybraNlEZ488=",
+        "ref": "refs/heads/master",
+        "rev": "52bd3344def4a3e01d2a2f92cc306dad61c1246b",
+        "revCount": 570,
+        "type": "git",
+        "url": "ssh://git@github.com/ncsurobotics/jetpack-nixos.git"
       },
       "original": {
-        "owner": "anduril",
-        "ref": "master",
-        "repo": "jetpack-nixos",
-        "type": "github"
+        "type": "git",
+        "url": "ssh://git@github.com/ncsurobotics/jetpack-nixos.git"
       }
     },
     "nix-index-database": {

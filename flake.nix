@@ -7,7 +7,7 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
 
     jetpack-nixos = {
-      url = "github:anduril/jetpack-nixos/master";
+      url = "git+ssh://git@github.com/ncsurobotics/jetpack-nixos.git";
       inputs.nixpkgs.follows = "nixpkgs";      
     };
 
