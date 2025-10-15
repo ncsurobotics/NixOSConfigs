@@ -34,9 +34,9 @@
       ];
       systems = [ "aarch64-linux" ];
       perSystem =
-        { pkgs, ... }:
+        { pkgs, system, ... }:
         {
-          packages.default = pkgs.callPackage ./pkgs/zed-link-mono-driver.nix {};
+          packages.zed-link-mono-driver = pkgs.callPackage ./pkgs/zed-link-mono-driver.nix { jetpack = inputs.jetpack-nixos.legacyPackages.${system}.nvidia-jetpack6; };
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
               nil
