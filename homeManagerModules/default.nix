@@ -1,6 +1,7 @@
 _: {
   imports = [
     ./shell
+    ./programs
   ];
 
   programs = {
