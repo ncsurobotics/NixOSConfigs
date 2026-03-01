@@ -2,6 +2,7 @@ _: {
   imports = [
     ./shell
     ./programs
+    ./desktopEnvironment
   ];
 
   programs = {

@@ -22,5 +22,6 @@ in
 {
   flake.nixosConfigurations = mkNixosConfigurations [
     "SeaWolf9"
+    "Constantinople"
   ];
 }

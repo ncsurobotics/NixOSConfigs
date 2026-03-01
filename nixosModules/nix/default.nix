@@ -2,6 +2,7 @@
 {
   imports = [
     ./nh.nix
+    ./substituters.nix
   ];
 
   nix = {
